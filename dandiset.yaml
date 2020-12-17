@@ -31,4 +31,4 @@ keywords:
 name: SpikeInterface, a unified framework for spike sorting
 number_of_subjects: 1
 organism:
-- species: mus musculus
+- species: Mus musculus
