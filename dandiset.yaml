@@ -71,7 +71,8 @@ id: DANDI:000034/draft
 identifier: DANDI:000034
 keywords:
 - Spike Sorting
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000034/versions/draft/assets/
 name: SpikeInterface, a unified framework for spike sorting
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
