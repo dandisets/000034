@@ -75,14 +75,20 @@ id: DANDI:000034/draft
 identifier: DANDI:000034
 keywords:
 - Spike Sorting
-- 'extracellular electrophysiology; '
+- extracellular electrophysiology
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000034/versions/draft/assets/
 name: SpikeInterface, a unified framework for spike sorting
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: doi:10.7554/eLife.61834
+  name: SpikeInterface, a unified framework for spike sorting
+  relation: dcite:IsDescribedBy
+  repository: eLife
+  schemaKey: Resource
+  url: https://doi.org/10.7554/eLife.61834
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
