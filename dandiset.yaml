@@ -5,6 +5,13 @@
 about: []
 access:
 - status: dandi:OpenAccess
+acknowledgement: 'This work was supported by the Wellcome Trust grant 214431/Z/18/Z
+  (MHH). APB is supported by an ETH Zurich Postdoctoral Fellowship 19–2 FEL-17, and
+  by the Simula-UCSD-University of Oslo Research and PhD training (SUURPh) program,
+  funded by the Norwegian Ministry of Education and Research. CLH is supported by
+  the Thouron Award and by the Institute for Adaptive and Neural Computation, University
+  of Edinburgh. JHS wishes to thank the Allen Institute founder, Paul G Allen, for
+  his vision, encouragement and support. '
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -66,10 +73,16 @@ contributor:
   includeInCitation: true
   name: Hennig, Matthias H.
   schemaKey: Person
-description: "This dataset contains all recordings analysed in the paper: \"SpikeInterface,
-  a unified framework for spike sorting.\" Alessio P. Buccino, Cole L. Hurwitz, Samuel
-  Garcia, Jeremy Magland, Joshua H. Siegle, Roger Hurwitz, Matthias H. Hennig, eLife
-  - doi: https://doi.org/10.7554/eLife.61834; \n"
+dateCreated: '2020-08-05T16:05:49.220000+00:00'
+description: 'SpikeInterface is a Python framework designed to make the analysis of
+  extracellular electrophysiology data more accessible and standardized. The SpikeInterface
+  documentation can be found at https://spikeinterface.readthedocs.io/en/latest/.
+
+
+  This dataset contains all recordings analysed in the paper: "SpikeInterface, a unified
+  framework for spike sorting." Alessio P. Buccino, Cole L. Hurwitz, Samuel Garcia,
+  Jeremy Magland, Joshua H. Siegle, Roger Hurwitz, Matthias H. Hennig, eLife - doi:
+  https://doi.org/10.7554/eLife.61834; '
 ethicsApproval: []
 id: DANDI:000034/draft
 identifier: DANDI:000034
@@ -87,7 +100,6 @@ relatedResource:
   name: SpikeInterface, a unified framework for spike sorting
   relation: dcite:IsDescribedBy
   repository: eLife
-  schemaKey: Resource
   url: https://doi.org/10.7554/eLife.61834
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
