@@ -5,13 +5,6 @@
 about: []
 access:
 - status: dandi:OpenAccess
-acknowledgement: 'This work was supported by the Wellcome Trust grant 214431/Z/18/Z
-  (MHH). APB is supported by an ETH Zurich Postdoctoral Fellowship 19–2 FEL-17, and
-  by the Simula-UCSD-University of Oslo Research and PhD training (SUURPh) program,
-  funded by the Norwegian Ministry of Education and Research. CLH is supported by
-  the Thouron Award and by the Institute for Adaptive and Neural Computation, University
-  of Edinburgh. JHS wishes to thank the Allen Institute founder, Paul G Allen, for
-  his vision, encouragement and support. '
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -44,6 +37,7 @@ citation: Buccino, Alessio; Hurwitz, Cole; Garcia, Samuel; Magland, Jeremy; Sieg
   for spike sorting (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000034/draft
 contributor:
 - affiliation: []
+  awardNumber: ETH Zurich Postdoctoral Fellowship 19–2 FEL-17
   email: alessiop.buccino@gmail.com
   identifier: 0000-0003-3661-527X
   includeInCitation: true
@@ -51,9 +45,13 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-- identifier: 0000-0002-2023-1653
+- affiliation: []
+  awardNumber: Thouron Award and by the Institute for Adaptive and Neural Computation,
+    University of Edinburgh
+  identifier: 0000-0002-2023-1653
   includeInCitation: true
   name: Hurwitz, Cole
+  roleName: []
   schemaKey: Person
 - includeInCitation: true
   name: Garcia, Samuel
@@ -69,9 +67,12 @@ contributor:
 - includeInCitation: true
   name: Hurwitz, Roger
   schemaKey: Person
-- identifier: 0000-0001-7270-5817
+- affiliation: []
+  awardNumber: Wellcome Trust grant 214431/Z/18/Z
+  identifier: 0000-0001-7270-5817
   includeInCitation: true
   name: Hennig, Matthias H.
+  roleName: []
   schemaKey: Person
 dateCreated: '2020-08-05T16:05:49.220000+00:00'
 description: 'SpikeInterface is a Python framework designed to make the analysis of
