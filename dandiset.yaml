@@ -35,7 +35,7 @@ assetsSummary:
   - ElectricalSeries
 citation: Buccino, Alessio; Hurwitz, Cole; Garcia, Samuel; Magland, Jeremy; Siegle,
   Joshua; Hurwitz, Roger; Hennig, Matthias H. (2021) SpikeInterface, a unified framework
-  for spike sorting (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000034/draft
+  for spike sorting (Version 0.211030.0713) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000034/0.211030.0713
 contributor:
 - affiliation: []
   awardNumber: ETH Zurich Postdoctoral Fellowship 19–2 FEL-17
@@ -76,6 +76,7 @@ contributor:
   roleName: []
   schemaKey: Person
 dateCreated: '2020-08-05T16:05:49.220000+00:00'
+datePublished: '2021-10-30T07:13:22.183813+00:00'
 description: 'SpikeInterface is a Python framework designed to make the analysis of
   extracellular electrophysiology data more accessible and standardized. The SpikeInterface
   documentation can be found at https://spikeinterface.readthedocs.io/en/latest/.
@@ -85,8 +86,9 @@ description: 'SpikeInterface is a Python framework designed to make the analysis
   framework for spike sorting." Alessio P. Buccino, Cole L. Hurwitz, Samuel Garcia,
   Jeremy Magland, Joshua H. Siegle, Roger Hurwitz, Matthias H. Hennig, eLife - doi:
   https://doi.org/10.7554/eLife.61834; '
+doi: 10.48324/dandi.000034/0.211030.0713
 ethicsApproval: []
-id: DANDI:000034/draft
+id: DANDI:000034/0.211030.0713
 identifier: DANDI:000034
 keywords:
 - Spike Sorting
@@ -94,9 +96,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000034/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000034/0.211030.0713/assets.yaml
 name: SpikeInterface, a unified framework for spike sorting
 protocol: []
+publishedBy:
+  endDate: '2021-10-30T07:13:22.183813+00:00'
+  id: urn:uuid:50261969-fc98-4b51-906e-226aac10804e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-10-30T07:13:22.183813+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:54169f9f-849a-402c-91da-753f783e84d1
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.7554/eLife.61834
   name: SpikeInterface, a unified framework for spike sorting
@@ -109,6 +123,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget:
 - Benchmark and compare existing automatic spike sorting algorithms
-url: https://dandiarchive.org/dandiset/000034/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000034/0.211030.0713
+version: 0.211030.0713
 wasGeneratedBy: []
