@@ -23,7 +23,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 74351014076
   numberOfFiles: 6
-  numberOfSubjects: 3
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
